@@ -1,3 +1,1 @@
-/** First Wollok example */
-1231231321
-32
+object uri{}
