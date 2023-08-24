@@ -1,5 +1,6 @@
 import colores.*
 import materiales.*
+
 object remera {
 	method color()= rojo
 	method material()= lino
@@ -12,7 +13,24 @@ object munieco {
 	method peso() = peso 
 	method peso(unPeso){peso=unPeso}
 	}
-object  {}
-object  {}
-object  {}
+object pelota {
+	method color() = pardo
+	method material() = cuero
+	method peso() = 1300
+}
+object biblioteca{
+	method color() = verde
+	method material() = madera
+	method peso() = 8000
+}
+object placa {
+	var peso
+	var color
+	method color() = color
+	method color(unColor){color = unColor}
+	method material() = cobre
+	method peso() = peso
+	method peso(unPeso){ peso=unPeso}
+	
+}
 
