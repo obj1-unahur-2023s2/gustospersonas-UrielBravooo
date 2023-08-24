@@ -24,13 +24,12 @@ object biblioteca{
 	method peso() = 8000
 }
 object placa {
-	var peso
-	var color
+	var peso = 2400
+	var color = rojo 
 	method color() = color
 	method color(unColor){color = unColor}
 	method material() = cobre
 	method peso() = peso
 	method peso(unPeso){ peso=unPeso}
-	
 }
 

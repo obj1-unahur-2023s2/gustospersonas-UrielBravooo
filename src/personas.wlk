@@ -1,5 +1,7 @@
 import colores.*
 import materiales.*
+import cosas.*
+import bolichito.*
 
 object rosa{
 	method leGusta(algo){
@@ -13,7 +15,7 @@ object estefania{
 }
 object luisa{
 	method leGusta(algo){
-		return algo.esMaterialQueBrilla()
+		return algo.material().esBrillante()
 	}
 }	
 object juan{
